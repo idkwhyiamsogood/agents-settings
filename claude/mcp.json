@@ -1,12 +1,3 @@
 {
-  "mcpServers": {
-    "figwright": {
-      "type": "stdio",
-      "command": "bunx",
-      "args": [
-        "@figwright/mcp@latest"
-      ],
-      "env": {}
-    }
-  }
+  "mcpServers": {}
 }

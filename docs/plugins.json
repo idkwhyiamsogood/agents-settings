@@ -1,0 +1,10 @@
+{
+  "optional": [
+    "openai-templates",
+    "plugin-management",
+    "sites",
+    "visualize",
+    "work-pets"
+  ],
+  "installation": "Install only needed plugins through the application; never copy plugin caches."
+}

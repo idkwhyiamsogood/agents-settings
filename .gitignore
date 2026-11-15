@@ -28,3 +28,14 @@ __pycache__/
 **/globalStorage/
 **/workspaceStorage/
 **/History/
+
+# Device-specific and application-managed files
+**/cache/
+**/.cache/
+**/.system/
+**/node_modules/
+**/skills-cursor/
+*.local.json
+*.local.toml
+.local/
+backups/
