@@ -1,0 +1,25 @@
+{
+  "Flutter Stateful Widget from filename": {
+    "scope": "dart",
+    "prefix": "sfw",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} extends StatefulWidget {",
+      "  const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}({super.key});",
+      "",
+      "  @override",
+      "  State<${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}> createState() => _${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}State();",
+      "}",
+      "",
+      "class _${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}State extends State<${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}> {",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return ${2:const Scaffold(body: Placeholder())};",
+      "  }",
+      "}",
+      "$0"
+    ],
+    "description": "Создает StatefulWidget и его State, используя имя файла"
+  }
+}

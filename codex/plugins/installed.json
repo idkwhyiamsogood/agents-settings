@@ -1,0 +1,27 @@
+[
+  {
+    "name": "openai-templates",
+    "version": "0.1.1",
+    "path": "codex/plugins/cache/openai-curated-remote/openai-templates/0.1.1"
+  },
+  {
+    "name": "plugin-management",
+    "version": "0.1.1-capabilities.1",
+    "path": "codex/plugins/cache/openai-curated-remote/plugin-management/0.1.1-capabilities.1"
+  },
+  {
+    "name": "sites",
+    "version": "1.1.6",
+    "path": "codex/plugins/cache/openai-curated-remote/sites/1.1.6"
+  },
+  {
+    "name": "visualize",
+    "version": "1.0.89",
+    "path": "codex/plugins/cache/openai-curated-remote/visualize/1.0.89"
+  },
+  {
+    "name": "work-pets",
+    "version": "0.1.6",
+    "path": "codex/plugins/cache/openai-curated-remote/work-pets/0.1.6"
+  }
+]

@@ -1,0 +1,20 @@
+{
+	"Flutter Stateless Widget from filename": {
+		"scope": "dart",
+		"prefix": "slw",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} extends StatelessWidget {",
+			"  const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}({super.key});",
+			"",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    return ${2:const Scaffold(body: Placeholder())};",
+			"  }",
+			"}",
+			"$0"
+		],
+		"description": "Создает Stateless Widget, используя имя файла как название класса"
+	}
+}

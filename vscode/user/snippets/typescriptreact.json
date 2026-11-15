@@ -1,0 +1,21 @@
+{
+  "TypedReactArrowFunction": {
+    "prefix": "traf",
+    "body": [
+      "import type { FC } from 'react';",
+      "",
+      "interface Props {",
+      "}",
+      "",
+      "export const ${1:${TM_FILENAME_BASE/(^[A-Za-z])|([_-][A-Za-z])/${1:/upcase}${2:/upcase}/g}}: FC<Props> = ({ }) => {",
+      "  return (",
+      "    <div>",
+      "      $0",
+      "    </div>",
+      "  );",
+      "};",
+      ""
+    ],
+    "description": "React functional component with className prop and export const (filename-based)"
+  }
+}
